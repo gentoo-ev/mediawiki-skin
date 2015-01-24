@@ -1,0 +1,127 @@
+@import url(standard.css);
+
+#contentPrimary {
+	position: relative;
+	width: 690px;
+	padding-right: 245px;
+}
+#sidebar {
+	width: 230px;
+	padding-left: 10px;
+}
+
+#toc {
+	position: absolute;
+	top: 1em;
+	right: 0px;
+	width: 230px;
+	padding-top: 1.39em;
+	padding-left: 1em;
+	font-size: 90%;
+	background-color: #f6f6f6;
+}
+
+#toc ul {
+	padding-left: 0;
+	margin-left: 0;
+	list-style: none;
+}
+
+#toc h2 {
+	margin-top: 0;
+}
+
+#toc li.toclevel-2, #toc li.toclevel-3, #toc li.toclevel-4 {
+	margin-left: 1em !important;
+}
+
+#pageNav {
+	position: absolute;
+	top: -70px;
+	left: 31px;
+	font-size: 0.9em;
+	padding-bottom: 0.125em;
+	border-bottom: 1px solid #e0e0e0;
+	width: 935px;
+}
+#mainContent {
+	margin-top: 85px;
+}
+
+#wikiNav {
+	padding-top: 0.35em;
+	text-align: right;
+	background-color: #253E05;
+	overflow: auto;
+	font-size: 1.025em;
+	border-bottom: 2px solid #AAD16B;
+}
+#pageNav ul {
+	float: left;
+/*	clear: both;*/
+	list-style-type: none;
+	padding: 0 0 0.35em 16px;
+	margin: 0;
+}
+
+#pageNav ul li {
+	display: inline;
+	padding-right: 1em;
+}
+
+#pageNav, #pageNav a {
+	color: #505050;
+}
+
+#sidebar h4 {
+	margin-bottom: 5px;
+}
+
+
+#t-page {
+	background: url(images/page.png) no-repeat 0px 1px;
+}
+#t-toolbox {
+	background: url(images/wrench.png) no-repeat 0px 1px;
+	
+}
+#t-personal {
+	background: url(images/house.png) no-repeat 0px 1px;
+	
+}
+
+#title {
+	padding-right: 5px;
+	padding-left: 31px;
+}
+#title h2 {
+	margin-right: 200px !important;
+}
+#title .sideitem {
+	float: right;
+	padding-top: 0.5em;
+}
+
+#title .sideitem #searchform	{
+	margin-bottom: 0.15em;
+}
+
+#title .sideitem input#s {
+	width: 96px;
+}
+
+#title .sideitem #searchsubmit	{}
+
+#title .sideitem a span {
+	font-size: 50%;
+}
+
+.floatright {
+  float: right;
+  margin-left: 1em;
+}
+
+.floatleft {
+  float: left;
+  margin-right: 1em;
+}
