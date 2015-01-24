@@ -126,6 +126,8 @@
 	color: #FF2000;
 	margin-right: 6px;
 	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
 	font-weight: bold;
 }
 
@@ -180,6 +182,8 @@ p.presskit {
 	  background-color: #faffef;
 	  border: 1px solid #dadfcf;
 	  -moz-border-radius: 6px;
+	  -webkit-border-radius: 6px;
+	  border-radius: 6px;
 	}
 	.attributes {
 	  width: 154px;

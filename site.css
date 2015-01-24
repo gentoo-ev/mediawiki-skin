@@ -182,7 +182,7 @@ img.mugshot {
 	left: -2px;
 	right: -2px;
 	-moz-border-radius: 1px;
-	webkit-border-radius: 1px;
+	-webkit-border-radius: 1px;
 	border-radius: 1px;
 	opacity: 0.4;
 }
